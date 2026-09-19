@@ -1,0 +1,23 @@
+# Raw data and generated exports
+data/raw/
+data/*.csv
+results/**/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+*.env
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Power BI temporary files
+~$*.pbix

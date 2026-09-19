@@ -1,0 +1,5 @@
+file_name,target_table,grain,primary_key,import_order
+company_dim.csv,data_jobs.company_dim,one row per company,company_id,1
+skills_dim.csv,data_jobs.skills_dim,one row per unique skill,skill_id,2
+job_postings_fact.csv,data_jobs.job_postings_fact,one row per job posting,job_id,3
+skills_job_dim.csv,data_jobs.skills_job_dim,one skill assigned to one job posting,job_id + skill_id,4
