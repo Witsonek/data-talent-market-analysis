@@ -52,4 +52,16 @@ The imported dataset contains global data-job postings from 2024. The project do
 
 ## Data access
 
-Raw source CSV files are not committed because of their size. Their local structure, expected schema and import order are documented in `data/`. A shareable data-access link may be added here later if appropriate.
+Raw source files are not committed to Git because of their size.
+
+The raw dataset, including the files used to build the PostgreSQL source model, is available in the project Google Drive folder:
+
+[Open the project data folder in Google Drive](https://drive.google.com/drive/folders/1PGuJpvtqyNe0TaHW8Y_T1KZW5nG82nN5?usp=drive_link)
+
+The shared folder contains only materials for this project. Access is provided for viewing and downloading the project files.
+
+## Acknowledgements
+
+This project was inspired by Luke Barousse's Data Analyst learning materials and the [How I Would Learn to be a Data Analyst](https://www.youtube.com/watch?v=TFFzNjWkhDk&list=PL_CkpxkuPiT-RJ7zBfHVWwgltEWIVwrwb) course series.
+
+The portfolio implementation is an independent project. It uses a documented PostgreSQL data model, its own data-quality validation process, and independently produced analysis outputs. Course materials are acknowledged as educational inspiration and are not presented as original work.
