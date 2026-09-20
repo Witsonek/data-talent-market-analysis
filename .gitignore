@@ -1,7 +1,6 @@
-# Raw data and generated exports
+# Raw source data (stored externally because of file size)
 data/raw/
 data/*.csv
-results/**/*.csv
 
 # Python
 __pycache__/
