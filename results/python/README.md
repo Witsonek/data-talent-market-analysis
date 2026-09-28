@@ -4,6 +4,8 @@ This folder stores the output artefacts produced by the Python analysis stage of
 
 All numbers and findings presented here come from the validated PostgreSQL source database (`portfolio_data_jobs`, schema `data_jobs`). The dataset covers global data-job postings labelled as 2024 data. Results from course materials or external benchmarks are not reproduced here.
 
+Source CSV files and the Power BI dashboard file are not stored in this repository. They are available in the [project Google Drive folder](https://drive.google.com/drive/folders/1NIMxwh9M63p4NvJNOmcM3NqkFhnhacTO?usp=sharing).
+
 ---
 
 ## Dataset scope
@@ -75,12 +77,12 @@ Among postings with at least one skill, the median number of skills per posting 
 |---|---|---|---|---|
 | 1 | python | programming | 244 416 | 59.61 % |
 | 2 | sql | programming | 240 179 | 58.58 % |
-| 3 | tableau | analyst_tools | 73 513 | 17.93 % |
-| 4 | spark | libraries | 71 962 | 17.55 % |
-| 5 | r | programming | 71 823 | 17.52 % |
-| 6 | excel | analyst_tools | 71 807 | 17.51 % |
-| 7 | aws | cloud | 100 386 | 24.48 % |
-| 8 | azure | cloud | 93 849 | 22.89 % |
+| 3 | aws | cloud | 100 386 | 24.48 % |
+| 4 | azure | cloud | 93 849 | 22.89 % |
+| 5 | tableau | analyst_tools | 73 513 | 17.93 % |
+| 6 | spark | libraries | 71 962 | 17.55 % |
+| 7 | r | programming | 71 823 | 17.52 % |
+| 8 | excel | analyst_tools | 71 807 | 17.51 % |
 | 9 | power bi | analyst_tools | 66 183 | 16.14 % |
 | 10 | java | programming | 51 294 | 12.51 % |
 
@@ -151,4 +153,4 @@ Every number in this document can be reproduced from the validated PostgreSQL so
 2. Run `sql/01_data_quality_checks.sql` and confirm the outputs match the quality summary above.
 3. Run the Python notebooks in `python/` in numerical order as documented in `python/README.md`.
 
-Source CSV files are not committed to Git due to their size. They are available in the project Google Drive folder linked from the root README.
+Source CSV files are not committed to Git due to their size. They are available in the [project Google Drive folder](https://drive.google.com/drive/folders/1NIMxwh9M63p4NvJNOmcM3NqkFhnhacTO?usp=sharing).

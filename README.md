@@ -33,9 +33,9 @@ This repository currently documents the data-import and PostgreSQL preparation p
 ```text
 data/       Data documentation; source CSV files are intentionally excluded from Git.
 sql/        PostgreSQL schema and validation scripts.
-python/     Reserved for the separate Python analysis stage.
-power-bi/   Reserved for the separate Power BI dashboard stage.
-results/    Reserved for final, reproducible exports.
+python/     Python analysis stage.
+power-bi/   Power BI dashboard stage.
+results/    Final, reproducible exports.
 ```
 
 ## Scope
@@ -52,13 +52,21 @@ The imported dataset contains global data-job postings from 2024. The project do
 
 ## Data access
 
-Raw source files are not committed to Git because of their size.
+Raw source files are not committed to Git because of their size. The Power BI dashboard file (.pbix) is also stored on Google Drive due to its binary format and size.
 
-The raw dataset, including the files used to build the PostgreSQL source model, is available in the project Google Drive folder:
+Both are available in the project Google Drive folder:
 
-[Open the project data folder in Google Drive](https://drive.google.com/drive/folders/1PGuJpvtqyNe0TaHW8Y_T1KZW5nG82nN5?usp=drive_link)
+[Open the project folder in Google Drive](https://drive.google.com/drive/folders/1NIMxwh9M63p4NvJNOmcM3NqkFhnhacTO?usp=sharing)
 
-The shared folder contains only materials for this project. Access is provided for viewing and downloading the project files.
+The folder is organised as follows:
+
+```text
+Data Talent Market Analysis/
+├── data/       Source CSV files used to build the PostgreSQL database.
+└── power-bi/   Power BI dashboard file (.pbix).
+```
+
+Access is provided for viewing and downloading.
 
 ## Acknowledgements
 
